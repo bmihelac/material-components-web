@@ -83,7 +83,7 @@
     }
   }
 
-  &__menu {
+  & &__menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -137,7 +137,7 @@
 
 // postcss-bem-linter: end
 
-.mdc-select__menu {
+.mdc-select .mdc-select__menu {
   .mdc-list-item {
     @include mdc-typography(subheading2);
     @include mdc-theme-prop(color, text-secondary-on-light);
